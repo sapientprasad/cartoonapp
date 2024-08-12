@@ -1,4 +1,4 @@
-package com.prasad.data.model
+package com.prasad.network.model
 
 import com.prasad.domain.entities.CartoonEntity
 

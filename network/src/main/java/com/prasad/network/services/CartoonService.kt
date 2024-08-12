@@ -1,6 +1,6 @@
 package com.prasad.network.services
 
-import com.prasad.data.model.CartoonModel
+import com.prasad.network.model.CartoonModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
