@@ -1,0 +1,11 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="back_arrow">Back Button</string>
+    <string name="cartoon_list_screen">Cartoon List</string>
+    <string name="cartoon_details_screen">Cartoon Details</string>
+    <string name="image_content_desc">Cartoon Image</string>
+    <string name="title">Title : %s</string>
+    <string name="year">Year : %d</string>
+    <string name="creator">Creator : %s</string>
+    <string name="genre">Genre : %s</string>
+</resources>
