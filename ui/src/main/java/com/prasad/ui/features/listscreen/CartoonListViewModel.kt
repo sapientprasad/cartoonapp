@@ -28,7 +28,7 @@ class CartoonListViewModel @Inject constructor(
         when (viewIntent) {
             CartoonListViewIntent.LoadData -> getCartoonList()
             is CartoonListViewIntent.OnItemClicked -> {
-                viewModelScope.launch {
+                viewModelScope.launch(ioDispatcher) {
                     sideEffect.emit(NavigateToCartoonDetailsSideEffect(viewIntent.id))
                 }
             }

@@ -1,6 +1,6 @@
 package com.prasad.data.stubs
 
-import com.prasad.network.model.CartoonModel
+import com.prasad.data.model.CartoonModel
 
 class Stubs {
 

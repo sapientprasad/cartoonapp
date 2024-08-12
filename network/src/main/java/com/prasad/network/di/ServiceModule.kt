@@ -1,6 +1,7 @@
 package com.prasad.network.di
 
 import com.prasad.network.BuildConfig
+import com.prasad.network.services.CartoonService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -20,11 +21,11 @@ object ServiceModule {
     @Provides
     fun provideCartoonService(
         okHttpClient: OkHttpClient
-    ): com.prasad.network.services.CartoonService {
+    ): CartoonService {
         return Retrofit.Builder()
             .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
-            .client(okHttpClient).build().create(com.prasad.network.services.CartoonService::class.java)
+            .client(okHttpClient).build().create(CartoonService::class.java)
     }
 
     @Provides

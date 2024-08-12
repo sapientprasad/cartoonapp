@@ -4,7 +4,7 @@ import com.prasad.data.stubs.Stubs
 import com.prasad.domain.common.Result
 import com.prasad.domain.entities.CartoonListEntity
 import com.prasad.network.Utils
-import com.prasad.network.model.CartoonModel
+import com.prasad.data.model.CartoonModel
 import com.prasad.network.services.CartoonService
 import io.mockk.coEvery
 import io.mockk.mockk
